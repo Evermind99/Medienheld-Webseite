@@ -1,0 +1,100 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+/*...*/
+}
+
+/* Main body */
+
+body
+{
+color: white;
+background-color: black;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    /*Change background image*/
+}
+/* body */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer
+{
+    margin-top: 70%;
+    margin-left: 90%;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+footer li
+{
+    margin-right: 10px;
+}
+
+footer a
+{
+    font-size: 1em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
