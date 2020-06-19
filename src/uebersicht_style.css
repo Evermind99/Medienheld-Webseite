@@ -8,8 +8,7 @@
     
     background-repeat: no-repeat;
     
-    /*min-height: 1840px;*/
-    max-height: 1840px;
+    min-width: 1900px;
     top: 0;
     left: 0;
     background-size: cover;
@@ -107,11 +106,11 @@ a:hover {
 #foot {
     margin-top: 4%;
     margin-bottom: 0.5%;
-    margin-left: 86.5%;
+    margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 13%;
     height: 10%;
 }

@@ -7,9 +7,7 @@
     background-image: url('../assets/uebersicht_bg.png');
     
     background-repeat: no-repeat;
-    
-    /*min-height: 1840px;*/
-    max-height: 1840px;
+    max-height: 1000px;
     top: 0;
     left: 0;
     background-size: cover;
@@ -69,7 +67,7 @@ h2{
 }
 #icons {
     margin-top: 8%;
-    margin-left:25.5%;
+    margin-left:25.55%;
     display: flex;
     justify-content: normal;
     width: 44%;
@@ -147,11 +145,11 @@ h2{
 #foot {
     margin-top: 35%;
     margin-bottom: 0.5%;
-    margin-left: 86.5%;
+    margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 13%;
     height: 10%;
 }

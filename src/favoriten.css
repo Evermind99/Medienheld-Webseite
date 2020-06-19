@@ -5,6 +5,8 @@ margin:0;
   background-color: transparent;
   width: 100%;
   height: auto;
+  min-width: 1800px;
+  min-height: 800px;
 }
 
 .bg{
@@ -131,11 +133,11 @@ td {
     z-index: 2;
     position:fixed;
     margin-top: 46%;
-    margin-left: 86%;
+    margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 13%;
     height: 10%;
 }

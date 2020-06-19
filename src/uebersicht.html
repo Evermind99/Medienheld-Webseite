@@ -3,22 +3,26 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="uebersicht_style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="jquery-3.5.1.min.js"></script>
     
-    <title>Medienheld Übersicht</title>
+    <title>Übersicht</title>
 </head>
 
 <body id="body">
 <div id="bloc_page">
     <header>
         <div id="logo">
-            <img src="../assets/logo.png" alt="#"/>
+                <a href="../Startseite.html">
+                <img src="../assets/logo.png"  alt="#">
+              </a>
         </div>
 
         <nav>
             <ul id = "linksTop">
-                <a href="#" style="color:aliceblue">Shop</a>
+                <a href="shop.html" style="color:aliceblue">Shop</a>
                 <a href="#"style="color:aliceblue">About</a>
                 <a href="#"style="color:aliceblue">Kontakt</a>
             </ul>
@@ -38,9 +42,9 @@
         </article>
 
         <icons id="icons">
-            <img src="../assets/design_icon.png">
-            <img src="../assets/prog_icon.png">
-            <img src="../assets/netzwerke_icon.png">
+            <a href="#"><img src="../assets/design_icon.png"></a>
+            <a href="lesson_prog.html"><img src="../assets/prog_icon.png"></a>
+            <a href="lesson_netzwerke.html"><img src="../assets/netzwerke_icon.png"></a>
 
         </icons>
 
@@ -59,8 +63,10 @@
             <p> Dennoch kannst du, abhängig davon, was du am Liebsten machst, den einen oder</p>
             <p> anderen tiefer erforschen. Letzten Endes sind aber alle Elemente nötig, um aus dir einen </p>
             <p> echten Medienhelden zu machen. </p>
-
-            <button id="zu_den_kursen" onclick ="">
+            <a href="uebersicht_prog.html">
+                <button id="zu_den_kursen"></button>
+            </a>
+            
         </article>
     </section>
 
@@ -71,4 +77,6 @@
     </footer>
 </div>
 </body>
+
+
 </html>

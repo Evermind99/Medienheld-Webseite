@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="lesson_prog.css" />
-    <link rel="icon" src="../assets/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <meta name="viewport" content="user-scalable=no, width=device-width" />
@@ -17,12 +17,16 @@
         <div class="menubars"> 
             <header>
                 <div id="logo">
-                    <img src="../assets/logo.png" alt="#"/>
+                    <a href="Startseite.html">
+                        <a href="../Startseite.html">
+                            <img src="../assets/logo.png"  alt="#">
+                          </a>
+                      </a>
                 </div>
         
                 <nav>
                     <ul id = "linksTop">
-                        <a href="#" style="color:aliceblue">Shop</a>
+                        <a href="shop.html" style="color:aliceblue">Shop</a>
                         <a href="#"style="color:aliceblue">About</a>
                         <a href="#"style="color:aliceblue">Kontakt</a>
                     </ul>
@@ -77,7 +81,9 @@ Dem Thema werden wir uns später noch ausführlicher widmen.</p>
 <p>Eine Klasse allein ist jedoch noch kein ausführbares Programm.
 Damit man ein ausführbares Programm erhält, muss eine Klasse die main() –Methode implementieren.
 Ausgenommen davon sind Webservices wie z.B. Applets und Servlets.</p>
-<p><img src="../assets/helloworld2.png"></p>
+
+<p><img src="../assets/helloworld2.png" style="margin-top: 5%; margin-bottom: 5%;"></p>
+
 <p>Die Deklaration der Klasse beginnt mit dem Zugriffsmodifikator public.
 Dieser und andere Modifikatoren werden noch im weiteren Tutorial-Verlauf näher erläutert.</p>
 Anschließend folgt das zwingend erforderliche Schlüsselwort class, welches eine Klasse kennzeichnet.
@@ -91,8 +97,11 @@ Wenn wir unserem Computer sagen, er solle dieses Programm ausführen, sehen wir 
 Die sogenannte Bildschirmausgabe wird hier immer in einem
 dunkelgrauen Kasten dargestellt.
 Das hier jetzt „Hello World“ auf dem Bildschirm steht, haben wir dem Befehl printf zu verdanken. In dem
-Befehlsnamen steckt das Wort „print“, was übersetzt „drucken“ heißt. Dass der Befehl nun etwas auf den Bildschirm „druckt“ bzw. ausgibt, ist also nicht sehr verwunderlich.
-<p><img src="../assets/helloworld.png"></p>
+Befehlsnamen steckt das Wort „print“, was übersetzt „drucken“ heißt. Dass der Befehl nun etwas auf den Bildschirm „druckt“
+bzw. ausgibt, ist also nicht sehr verwunderlich.
+
+<p><img src="../assets/helloworld.png" style="margin-top: 5%; margin-bottom: 5%;"></p>
+
 <p id="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
 sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
@@ -110,7 +119,6 @@ et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
   </div>
 
   <script>
-    // When the user scrolls the page, execute myFunction 
     window.onscroll = function() {myFunction()};
     
     function myFunction() {
