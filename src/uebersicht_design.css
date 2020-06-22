@@ -1,18 +1,13 @@
 
 
 #body {
-    /*
+    position: absolute;
+    white-space: nowrap;
     overflow-x: hidden;
-    */
     background-image: url('../assets/uebersicht_bg.png');
     
     background-repeat: no-repeat;
-    min-width: 1920px;
-    min-height: 1835px;
-    /*
-    max-width: 1920px;
-    max-height: 2100px;
-    */
+    max-height: 1000px;
     top: 0;
     left: 0;
     background-size: cover;
@@ -28,7 +23,7 @@
 }
 
 #logo{
-    margin-left: 2.5%;
+    margin-left: 1.5%;
     margin-top: 1.5%;
     max-width: 10%;
     cursor: pointer;
@@ -62,7 +57,7 @@ a:hover {
     line-height: 15pt ;
     font-size: 19pt; 
     margin-top: 9%;
-    margin-left: 3%;
+    
 }
 h2{
     text-align: center;
@@ -72,7 +67,7 @@ h2{
 }
 #icons {
     margin-top: 8%;
-    margin-left:27.5%;
+    margin-left:25.55%;
     display: flex;
     justify-content: normal;
     width: 44%;
@@ -110,15 +105,15 @@ h2{
 }
 
 #linie {
-    margin-top: 8.5%; 
+    margin-top: 6%; 
 }
 #content2 {
     
     align-content: center;
     line-height: 15pt ;
     font-size: 19pt; 
-    margin-top: 9%;
-    margin-left: 25%;
+    margin-top: 6%;
+    margin-left: 22%;
 }
 
 
@@ -148,13 +143,13 @@ h2{
 }
 
 #foot {
-    z-index: 5;
-    margin-top: 40%;
-    margin-left: 86.5%;
+    margin-top: 35%;
+    margin-bottom: 0.5%;
+    margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 13%;
     height: 10%;
 }

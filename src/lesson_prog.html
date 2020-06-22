@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="lesson_prog.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <title>Hello World</title>
+</head>
+
+<body id="body">
+
+<div>
+        <div class="bg"></div> 
+        <div class="menubars"> 
+            <header>
+                <div id="logo">
+                    <a href="Startseite.html">
+                        <a href="../Startseite.html">
+                            <img src="../assets/logo.png"  alt="#">
+                          </a>
+                      </a>
+                </div>
+        
+                <nav>
+                    <ul id = "linksTop">
+                        <a href="shop.html" style="color:aliceblue">Shop</a>
+                        <a href="#"style="color:aliceblue">About</a>
+                        <a href="#"style="color:aliceblue">Kontakt</a>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <div id = "linksSide">
+                       <p><a href="#"style="color:aliceblue; font-weight: bold" >1. Hello World</a></p>
+                       <p><a href="#"style="color:aliceblue;"class="subHeadline">1.1 Einführung</a></p>
+                       <p><a href="#"style="color:aliceblue"class="subHeadline">1.2 Die Main-Methode</a></p>
+                       <p><a href="#"style="color:aliceblue" class="subHeadline">1.3 Der Println-Befehl</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">2. Literale</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">3. Operatoren</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">4. Schleifen</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">5. Klassen</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">6. Vererbung</a></p>
+                       
+
+                    </div>
+                </nav>
+            </header>
+         </div>
+</div>
+
+
+<div id="content">
+<div id ="icons">
+    <div id="icons_left">
+    <img  src="../assets/clock.png">
+    5 min.
+    <img id="schwiegrigkeit" src="../assets/leicht.png">
+    </div>
+
+    <div id="icons_right">
+        <img src="../assets/save1.png">
+        <img id="liste" src="../assets/Liste.png">
+    </div>
+    
+</div>
+
+<div id="text">
+<h2 style="text-decoration: underline; text-decoration-color: #005A8C;">1. Hello World</h2>
+
+
+<h3>1.1 Einführung</h3>
+
+<p>In Java programmiert man aufgrund der zugrunde liegenden Objektorientierung immer in Klassen.
+Dem Thema werden wir uns später noch ausführlicher widmen.</p>
+
+<h3>1.2 Die Main-Methode</h3>
+
+<p>Eine Klasse allein ist jedoch noch kein ausführbares Programm.
+Damit man ein ausführbares Programm erhält, muss eine Klasse die main() –Methode implementieren.
+Ausgenommen davon sind Webservices wie z.B. Applets und Servlets.</p>
+
+<p><img src="../assets/helloworld2.png" style="margin-top: 5%; margin-bottom: 5%;"></p>
+
+<p>Die Deklaration der Klasse beginnt mit dem Zugriffsmodifikator public.
+Dieser und andere Modifikatoren werden noch im weiteren Tutorial-Verlauf näher erläutert.</p>
+Anschließend folgt das zwingend erforderliche Schlüsselwort class, welches eine Klasse kennzeichnet.
+Anschließend folgt der Klassenname. Dieser sollte für die Objekte, die durch diese Klasse repräsentiert werden sollen, aussagekräftig gewählt werden.
+Die main-Methode bezeichnet eine Startklasse und dient beim Ausführen als Einstiegspunkt.
+Wenn Sie diese Java-Klasse nun, wie im nachfolgenden Kapitel beschrieben, ausführen, sollte "Hello World!" ausgegeben werden.
+
+<h3>1.3 Der Println-Befehl</h3>
+
+Wenn wir unserem Computer sagen, er solle dieses Programm ausführen, sehen wir folgendes auf dem Bildschirm.
+Die sogenannte Bildschirmausgabe wird hier immer in einem
+dunkelgrauen Kasten dargestellt.
+Das hier jetzt „Hello World“ auf dem Bildschirm steht, haben wir dem Befehl printf zu verdanken. In dem
+Befehlsnamen steckt das Wort „print“, was übersetzt „drucken“ heißt. Dass der Befehl nun etwas auf den Bildschirm „druckt“
+bzw. ausgibt, ist also nicht sehr verwunderlich.
+
+<p><img src="../assets/helloworld.png" style="margin-top: 5%; margin-bottom: 5%;"></p>
+
+<p id="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</div>
+
+<div class="bar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+
+<footer id="foot">
+    <a href="#" style="color:aliceblue">AGB</a>
+    <a href="#" style="color:aliceblue">Impressum</a>
+    <a href="#" style="color:aliceblue">Datenschutz</a>
+</footer>
+
+
+
+</body>
+</html>

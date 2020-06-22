@@ -1,0 +1,160 @@
+
+
+#body {
+margin:0;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  min-width: 1800px;
+  min-height: 800px;
+}
+
+.bg{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image:url("../assets/lessons_bg.png");
+    background-size: cover;
+    position:fixed;
+    top:0;
+}
+ 
+.menubars{
+    z-index: 1;
+    height:100%;
+    width: 100%;
+    background-image:url("../assets/lessons_menu.png");
+    background-size: cover;
+    position:fixed;
+    top:0px;
+}
+
+#logo{
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    max-width: 10%;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+#linksTop{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 19pt;
+    margin-left: 79%;
+    margin-top: -3.5%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+    height: 2%;
+}
+a:hover {
+    font-size: 110%;
+}
+
+#linksSide{
+    
+    font-family: 'Noto Sans', monospace;
+    font-size: 13pt;
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 100%;
+    height: 10%;
+}
+.subHeadline{
+    margin-left: 1.2%;
+}
+
+#icons{
+}
+#icons_left{
+    margin-left: -10% ;
+    float: left;
+    justify-content: normal;
+}
+#schwierigkeit{
+    margin-left: 5%;
+}
+
+#icons_right{
+    margin-top: -3%;
+    margin-left: 97%;
+    float: left;
+    display: flex;
+    justify-content: normal;
+}
+#liste{
+    margin-left: 50%;
+}
+
+#content{
+    font-family: 'Noto Sans', monospace;
+    font-size: 13pt;
+    line-height: 25pt;
+    font-weight: normal;
+    width: 40%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 20%;
+    color: aliceblue;
+}
+#text{
+    float: right;
+}
+
+#lorem_ipsum{
+    color: transparent;
+}
+
+.bar {
+    z-index: 3;
+    margin-top: 46.63%;
+    margin-left: 32.5%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  
+  .progress-container {
+    border-style: solid;
+    border-color: black ;
+    border-width: 10px, 10px, 10px, 10px;
+    border-radius: 25px;
+    width: 45%;
+    height: 8px;
+    background: #1A1A1A;
+  }
+  
+  .progress-bar {
+    border-radius: 25px;
+    height: 8px;
+    background: white;
+    width: 0%;
+  }
+  
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+  }
+
+  #foot {
+    z-index: 2;
+    position:fixed;
+    margin-top: 27%;
+    margin-bottom: 50.5%;
+    margin-left: 85.5%;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    height: 10%;
+}

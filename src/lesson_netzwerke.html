@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="lesson_prog.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <title>Routing</title>
+</head>
+
+<body id="body">
+
+<div>
+        <div class="bg"></div> 
+        <div class="menubars"> 
+            <header>
+                <div id="logo">
+                    <a href="Startseite.html">
+                        <a href="../Startseite.html">
+                            <img src="../assets/logo.png"  alt="#">
+                          </a>
+                      </a>
+                </div>
+        
+                <nav>
+                    <ul id = "linksTop">
+                        <a href="shop.html" style="color:aliceblue">Shop</a>
+                        <a href="#"style="color:aliceblue">About</a>
+                        <a href="#"style="color:aliceblue">Kontakt</a>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <div id = "linksSide">
+                       <p><a href="#"style="color:aliceblue; font-weight: bold" >1. Topologie</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">2. Protokolle</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">3. Switching</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">4. Routing</a></p>
+                       <p><a href="#"style="color:aliceblue;"class="subHeadline">4.1 Einführung</a></p>
+                       <p><a href="#"style="color:aliceblue"class="subHeadline">4.2 Routing-Protokolle</a></p>
+                       <p><a href="#"style="color:aliceblue" class="subHeadline">4.3 Adressenzuordnung</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">5. Klassen</a></p>
+                       <p><a href="#"style="color:aliceblue; font-weight: bold">6. Vererbung</a></p>
+                       
+
+                    </div>
+                </nav>
+            </header>
+         </div>
+</div>
+
+
+<div id="content">
+<div id ="icons">
+    <div id="icons_left">
+    <img  src="../assets/clock.png">
+    5 min.
+    <img id="schwiegrigkeit" src="../assets/leicht.png">
+    </div>
+
+    <div id="icons_right">
+        <img src="../assets/save1.png">
+        <img id="liste" src="../assets/Liste.png">
+    </div>
+    
+</div>
+
+<div id="text">
+<h2 style="text-decoration: underline; text-decoration-color: #F0AA1E;">4. Routing</h2>
+
+
+<h3>4.1 Einführung</h3>
+<p>
+Generell hat das Internet Protokoll die Aufgabe, die Datenübertragung zwischen Netzwerken sicherzustellen.
+Der Sender eines IP-Datenpakets kennt dabei zwar die Zieladresse, nicht aber den Weg dorthin.
+</p>
+<p>
+Jede Station auf dem Weg des Datagramms zum Empfänger muss eine Entscheidung über die Wahl des
+weiteren Weges fällen. Dieser Vorgang wird als Routing bezeichnet.
+Sie werden erfahren, worin der Unterschied zwischen Routing-Protokollen und gerouteten Protokollen
+besteht und wie Router die Entfernung zwischen Standorten ermitteln.
+Wir werden verschiedene Routing-Ansätze (Distanzvektor-Routing, Link-State-Routing und Hybrid-Routing)
+vorstellen und zeigen, wie diese Technologien häufige Routing-Probleme lösen.
+</p>
+<p>
+Durch die Verwendung von Subnetzmasken kann man den Rechneranteil der IP-Adresse in einen Subnetzteil umwandeln.
+Die Subnetzmaske gibt an, welche Bereiche als Subnetz- und welche als Rechneradresse interpretiert werden.
+Dadurch schafft man innerhalb eines großen Netzes mehrere kleine, reduziert aber gleichzeitig die Anzahl
+der Rechner, die zu einem Netz gehören. Diese kleinen Netze innerhalb eines großen Netzes werden als Subnetze
+bezeichnet.
+</p>
+
+<h3>4.2 Routing-Protokolle</h3>
+<p>
+    Ein Protokoll ist ein auf Standards basierender Satz von Regeln, der bestimmt,
+    wie Computer über Netzwerke miteinander kommunizieren. Ferner dient ein Protokoll auch als gemeinsamer
+    Nenner oder Medium, über das unterschiedliche Anwendungen, Hosts oder Systeme kommunizieren können.
+</p>
+<p>
+    Wenn Computer miteinander kommunizieren, tauschen sie Datenmeldungen aus.
+    Um diese Meldungen in Empfang nehmen und verarbeiten zu können, müssen die Computer wissen,
+    wie die verschiedenen Meldungen definiert sind und was sie bedeuten. Beispiele für Vorgänge,
+    bei denen Meldungen ausgetauscht werden, sind etwa das Herstellen einer Verbindung mit einem entfernten
+    Computer, das Senden und Empfangen von E-Mail und die Übertragung von Daten und Dateien.
+</p>
+<p>
+    Ein Protokoll beschreibt das Format, das eine Meldung aufweisen muss.
+    Zusätzlich bestimmt es die Art und Weise, wie Computer Meldungen innerhalb des Kontexts
+    einer bestimmten Handlung (zum Beispiel beim Übertragen von Nachrichten über ein Netzwerk) austauschen.
+</p>
+
+<h3>4.3 Adressenzuordnung</h3>
+<p>
+    Damit ein Protokoll routbar ist, muss es in der Lage sein, jedem einzelnen Gerät eine eindeutige
+    Netzwerkadresse sowie eine Host- oder Knotenadresse zuzuweisen. Einige Protokolle wie etwa IPX setzen
+    lediglich voraus, dass ein Administrator eine Netzwerkadresse zuweist; als Hostadresse wird dann die
+    physikalische Adresse (MAC-Adresse) des Hosts verwendet. Andere Protokolle – beispielsweise IP – verlangen
+    jedoch die Angabe einer vollständigen Adresse und einer Subnetzmaske.
+</p>
+
+<p>
+    Sowohl die IP-Adresse als auch die Netzwerkmaske müssen einem gerouteten Netzwerk zugeordnet sein.
+    Eine Netzwerkmaske trennt die 32 Bits umfassende IP-Adresse in einen Netz- und einen Hostanteil auf.
+    IPX benutzt keine Netzwerkmaske, sondern verwendet die mit einer vom Administrator zugewiesenen Netzwerkadresse
+    verknüpfte MAC-Adresse, um die vollstän­dige Adresse zu erstellen. Bei IP-Adressen hingegen wird die
+    Netzwerkadresse durch einen Vergleich der Adresse mit der Netzwerkmaske ermittelt.
+</p>
+
+<p>
+    Eine Netzwerkmaske erlaubt die Behandlung von Gruppen aufeinander folgender IP-Adressen als Einheit.
+    Wenn eine solche Gruppenbildung nicht zulässig wäre, müsste jeder Host zu Routing-Zwecken individuell
+    bekannt sein, was bei den Millionen von Hosts im Internet nicht möglich wäre.
+</p>
+<p>
+    Wie Abbildung zeigt, lassen sich alle 254 Hosts in der Serie 192.168.10.1 bis 192.168.10.254 durch die
+    Netzwerkadresse 192.168.10.0 darstellen. Auf diese Weise können Daten unter Angabe der Netzwerkadresse an
+    jeden beliebigen dieser Hosts gesendet werden; Routing-Tabellen müssen also nur den Eintrag 192.168.10.0 und
+    nicht 254 einzelne Einträge aufweisen. Diese Adressierung entspricht den Vorgaben des ISC. Damit das Routing
+    funktioniert, muss diese Form der Gruppenbildung verwendet werden.
+</p>
+
+
+
+
+
+
+
+<p id="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+</div>
+</div>
+
+<div class="bar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+
+<footer id="foot">
+    <a href="#" style="color:aliceblue">AGB</a>
+    <a href="#" style="color:aliceblue">Impressum</a>
+    <a href="#" style="color:aliceblue">Datenschutz</a>
+</footer>
+
+
+
+</body>
+</html>
