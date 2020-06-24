@@ -100,7 +100,7 @@ a:hover {
     width: 40%;
     height: 60%;
     margin-left: 35%;
-    margin-top: 20%;
+    margin-top: 15%;
     color: aliceblue;
 }
 #text{
@@ -113,7 +113,7 @@ a:hover {
 
 .bar {
     z-index: 3;
-    margin-top: 46.63%;
+    margin-top: 50%;
     margin-left: 32.5%;
     position: fixed;
     top: 0;
@@ -148,7 +148,7 @@ a:hover {
   #foot {
     z-index: 2;
     position:fixed;
-    margin-top: 27%;
+    margin-top: 40%;
     margin-bottom: 50.5%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
