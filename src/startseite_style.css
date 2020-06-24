@@ -36,6 +36,10 @@ img:hover{
 button:hover{
     transform: scale(1.1);
 }
+#mehr
+{
+margin-top: 27%;
+}
 
 #linksTop{
     font-family: 'Source Code Pro', monospace;
@@ -105,7 +109,7 @@ a:hover {
 }
 
 #foot {
-    margin-top: 49%;
+    margin-top: 11.5%;
     margin-bottom: 0.5%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
