@@ -1,114 +1,117 @@
-/* Définition des polices personnalisées */
 
-@font-face
-{
-/*...*/
+
+#body {
+    position: absolute;
+    white-space: nowrap;
+    overflow-x: hidden;
+    background-image: url('../assets/startseitefake.png');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    min-width: 100px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
-/* Main body */
-
-body
-{
-color: white;
-background-image: url("../assets/startseite_bg.png");
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: center;
-font-family: 'Noto Sans', sans-serif;
-color: aliceblue;
-font-weight: bold;
+#bloc_page{
+    font-family: 'Noto Sans', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    
 }
 
-h1
-{
-background-color:withe;
-font-weight: 25px;
+#logo{
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    max-width: 10%;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
 }
 
-#bloc_page
-{
-    width: 900px;
-    margin: auto;
-}
-
-
-/* Header */
-
-header
-{
+#linksTop{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 19pt;
+    margin-left: 81%;
+    margin-top: -4%;
+    float: left;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    width: 15%;
+    height: 2%;
+}
+a:hover {
+    font-size: 110%;
 }
 
 
-#logo
-{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-left: 5%;
+#content {
+    text-align: center;
+    align-content: center;
+    line-height: 15pt ;
+    font-size: 19pt; 
+    margin-top: 9%;
+    margin-left: 0%;
 }
-
-/* Navigation */
-
-nav ul
-{
-    list-style-type: none;
-    display: flex;
+#text1 {
+    margin-top: 6%;
 }
-
-nav li
-{
-    margin-right: 15px;
-}
-
-nav a
-{
-    font-size: 1.3em;
-    color: white;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
-nav a:hover
-{
-    /*Change background image*/
-}
-/* body */
-
-section
-{
-    display: flex;
-    margin-bottom: 20px;
-}
-
-footer
-{
-    margin-top: 38%;
-    margin-left: 85%;
-    margin-bottom: 1px;
+#icons {
+    margin-top: 8%;
+    margin-left:21.5%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    opacity: 75%;
+    width: 56%;
+    height: 10%;
 }
 
-footer ul
-{
-    list-style-type: none;
+#titel {
+    margin-top: 1%;
+    margin-left: 25.5%;
+    text-align: center;
+    font-size: 30pt;
     display: flex;
+    justify-content: space-between;
+    width: 52%;
+    height: 10%;
 }
 
-footer li
-{
-    margin-right: 10px;
+#linie {
+    margin-top: 5.5%; 
 }
 
-footer a
-{
-    font-size: 1em;
-    color: white;
-    padding-bottom: 3px;
-    text-decoration: none;
+#text2 {
+    text-align: center;
+    margin-top: 7%;
+}
+
+#zu_den_kursen {
+    margin-top: 3%;
+    background-image: url('../assets/zu_den_kursen.png');
+    background-size: cover; 
+    background-color: transparent;
+    width: 266px; 
+    height: 34px; 
+    border: 0;
+    cursor: pointer;
+}
+
+#foot {
+    margin-top: 49%;
+    margin-bottom: 0.5%;
+    margin-left: 85.5%;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    height: 10%;
 }
