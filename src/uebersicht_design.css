@@ -67,7 +67,7 @@ h2{
 }
 #icons {
     margin-top: 8%;
-    margin-left:28%;
+    margin-left:25.7%;
     display: flex;
     justify-content: normal;
     width: 44%;
@@ -105,14 +105,14 @@ h2{
 }
 
 #linie {
-    margin-top: 6%; 
+    margin-top: 5.5%; 
 }
 #content2 {
     
     align-content: center;
     line-height: 15pt ;
     font-size: 19pt; 
-    margin-top: 6%;
+    margin-top: 4.5%;
     margin-left: 22%;
 }
 
@@ -143,8 +143,8 @@ h2{
 }
 
 #foot {
-    margin-top: 39%;
-    margin-bottom: 0.5%;
+    margin-top: 34.8%;
+    margin-bottom: 1%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
