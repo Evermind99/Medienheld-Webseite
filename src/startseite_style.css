@@ -4,6 +4,7 @@
     position: absolute;
     white-space: nowrap;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-image: url('../assets/startseitefake.png');
     
     background-repeat: no-repeat;

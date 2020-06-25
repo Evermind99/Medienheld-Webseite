@@ -118,3 +118,65 @@ a:hover {
     width: 13%;
     height: 10%;
 }
+
+#boxes{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.element
+{
+margin: 5%;
+}
+
+.element:nth-child(1)
+{
+margin-left: 5%;
+}
+
+.element:nth-child(2)
+{
+margin-left: 6%;
+}
+
+.element:nth-child(3)
+{
+margin-left: 4%;
+}
+
+.element:nth-child(4)
+{
+margin-left: 2%;
+}
+
+#content
+{
+margin-top: 20%;
+}
+
+
+#boxes2{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 6%;
+}
+
+#boxes3{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 6%;
+}
+
+#boxes4{
+color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 6%;
+}
