@@ -1,0 +1,122 @@
+
+
+#body {
+    position: absolute;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('../assets/kontakt.png');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    min-width: 100px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#bloc_page{
+    font-family: 'Noto Sans', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+
+#logo{
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    max-width: 10%;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+}
+#mehr
+{
+margin-top: 27%;
+}
+
+#linksTop{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 19pt;
+    margin-left: 79%;
+    margin-top: -4%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+    height: 2%;
+}
+a:hover {
+    font-size: 110%;
+}
+
+
+#content {
+    text-align: center;
+    align-content: center;
+    line-height: 15pt ;
+    font-size: 19pt; 
+    margin-top: 9%;
+    margin-left: 0%;
+}
+#text1 {
+    margin-top: 6%;
+}
+#icons {
+    margin-top: 8%;
+    margin-left:21.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 56%;
+    height: 10%;
+}
+
+#titel {
+    margin-top: 1%;
+    margin-left: 25.5%;
+    text-align: center;
+    font-size: 30pt;
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+    height: 10%;
+}
+
+#linie {
+    margin-top: 5.5%; 
+}
+
+#text2 {
+    text-align: center;
+    margin-top: 7%;
+}
+
+#zu_den_kursen {
+    margin-top: 3%;
+    background-image: url('../assets/zu_den_kursen.png');
+    background-size: cover; 
+    background-color: transparent;
+    width: 266px; 
+    height: 34px; 
+    border: 0;
+    cursor: pointer;
+}
+
+#foot {
+    margin-top: 49%;
+    margin-bottom: 0.5%;
+    margin-left: 85.5%;
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    height: 10%;
+}
