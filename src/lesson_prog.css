@@ -54,7 +54,7 @@ button:hover{
     height: 2%;
 }
 a:hover {
-    font-size: 110%;
+    font-size: 105%;
 }
 
 #linksSide{
@@ -70,8 +70,6 @@ a:hover {
     margin-left: 1.2%;
 }
 
-#icons{
-}
 #icons_left{
     margin-left: -10% ;
     float: left;
