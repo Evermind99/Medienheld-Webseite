@@ -25,7 +25,7 @@
 
 #logo{
     margin-left: 1.5%;
-    margin-top: 1.5%;
+    margin-top: 0.5%;
     max-width: 10%;
     cursor: pointer;
 }
@@ -104,7 +104,8 @@ a:hover {
 }
 
 #foot {
-    margin-top:6%;
+    font-weight: normal;
+    margin-top:7.5%;
     margin-bottom: 0.5%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
