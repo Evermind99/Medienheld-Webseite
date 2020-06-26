@@ -25,7 +25,7 @@
 
 #logo{
     margin-left: 1.5%;
-    margin-top: 1.5%;
+    margin-top: 0.5%;
     max-width: 10%;
     cursor: pointer;
 }
@@ -64,17 +64,17 @@ a:hover {
     margin-top: 6%;
 }
 #icons {
-    margin-top: 8%;
-    margin-left:20%;
+    margin-top: 6%;
+    margin-left:21%;
     display: flex;
     justify-content: space-between;
-    width: 56%;
+    width: 57%;
     height: 10%;
 }
 
 #titel {
     margin-top: 1%;
-    margin-left: 23.5%;
+    margin-left: 24.9%;
     text-align: center;
     font-size: 30pt;
     display: flex;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 #linie {
-    margin-top: 5.5%; 
+    margin-top: 4%; 
 }
 
 #text2 {
@@ -104,7 +104,8 @@ a:hover {
 }
 
 #foot {
-    margin-top: 10%;
+    font-weight: normal;
+    margin-top:7.5%;
     margin-bottom: 0.5%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;

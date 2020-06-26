@@ -44,13 +44,13 @@ button:hover{
 
 #linksTop{
     font-family: 'Source Code Pro', monospace;
-    font-size: 19pt;
-    margin-left: 79%;
+    font-size: 17pt;
+    margin-left: 85%;
     margin-top: -3.5%;
     float: left;
     display: flex;
     justify-content: space-between;
-    width: 17%;
+    width: 11%;
     height: 2%;
 }
 a:hover {
@@ -132,7 +132,7 @@ td {
   #foot {
     z-index: 2;
     position:fixed;
-    margin-top: 46%;
+    margin-top: 47%;
     margin-left: 85.5%;
     font-family: 'Source Code Pro', monospace;
     color: aliceblue;
